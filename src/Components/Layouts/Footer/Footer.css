@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  } 
+  
+Footer {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, #36302f, #312746);
+    padding: 10px 0; 
+    text-align: center; 
+    z-index: 1000; 
+    color: wheat;
+ }
+   

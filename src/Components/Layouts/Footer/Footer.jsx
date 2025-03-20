@@ -1,10 +1,15 @@
 import React from 'react'
+import './Footer.css'
+
 
 export const Footer = () => {
-  return (
-    <div>
-      <h1>HOLA</h1>
-    </div>
+  return(
+      <> 
+          <footer>
+              <div >
+                <p>Simón Alvarado Otalvaro</p>
+              </div>
+          </footer>
+      </>
   )
 }
-

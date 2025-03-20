@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
 export const Home = () => {
   return (
     <div>
-      <h1>Portafolio-Web</h1>
+      <h4>HOLA! SOY SIMÓN</h4>
+      
     </div>
-  )
-}
-
+  );
+};
