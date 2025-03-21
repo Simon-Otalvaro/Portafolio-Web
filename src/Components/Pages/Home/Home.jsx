@@ -8,39 +8,8 @@ export const Home = () => {
         <p>Software Technical, Web Developer and Designer</p>
       </div>
       <div className="my">
-        <img className="my-photo" src="URL_DE_TU_IMAGEN" alt="Mi foto" />
+        <img className="my-photo" src="src\assets\img\Me.jpg" alt="Mi foto" />
       </div>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
       <br></br>
       
     </div>

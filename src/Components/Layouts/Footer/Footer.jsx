@@ -5,6 +5,28 @@ import './Footer.css'
 export const Footer = () => {
   return(
       <> 
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br><br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
           <footer>
               <div className='links' >
                  <a href="https://wa.me/3228432087/" target="_blank" rel="noopener noreferrer">

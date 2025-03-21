@@ -14,15 +14,14 @@
   background: radial-gradient(circle, rgba(245, 0, 0, 0.5), rgba(255, 50, 50, 0.2));
 }
 
-/* Contenedor principal */
 .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 7rem;
 
 }
 
-/* Estilos para el texto */
 .text-content {
   color: white;
 }
@@ -43,6 +42,8 @@ p {
   display: flex;
   height: 20rem;
   width: 20rem;
+  border-radius: 10px; /* Asegura que no haya esquinas redondeadas */
+  object-fit: cover; /* Ajusta la imagen sin deformarla */
   background-color: beige;
   
 }
