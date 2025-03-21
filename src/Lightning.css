@@ -19,7 +19,6 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 7rem;
-
 }
 
 .text-content {
@@ -42,7 +41,7 @@ p {
   display: flex;
   height: 20rem;
   width: 20rem;
-  border-radius: 10px; /* Asegura que no haya esquinas redondeadas */
+  border-radius: 10px;
   object-fit: cover; /* Ajusta la imagen sin deformarla */
   background-color: beige;
   

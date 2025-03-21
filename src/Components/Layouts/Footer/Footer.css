@@ -7,20 +7,30 @@
 
 footer {
   width: 100%;
-  background: #444444;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #ffffff, #474b47);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #ffffff, #383a38); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 10px 0;
   text-align: center;
+  background-color: black;
 }
 
 .links {
+  margin-top: 5px;
   display: flex;
   justify-content: center; 
-  gap: 6rem; 
+  gap: 7rem; 
 }
 
 .text-footer {
-  color: rgb(0, 0, 0);
-  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  margin-top: 15px;
+  font-size: 15px;
+  text-align:center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 5rem;
 }
+
+.img-footer{
+  object-fit: cover;
+  width: 3rem;
+  height: 3rem;
+}
+

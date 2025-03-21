@@ -6,7 +6,7 @@
     return (
       <header>
         <div className='Icon-Header'>
-          <img />
+          <img src='src\assets\img\icon.png'/>
           <h1>P O R T F O L I O - W E B</h1>
         </div>
         <nav>
