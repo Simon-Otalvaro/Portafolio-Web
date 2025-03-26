@@ -11,15 +11,14 @@ import Lightning from "./Lightning";
 
 export const App = () => {
   return (
-    <div className="app-container"> {/* Contenedor global */}
-      <Lightning /> {/* Fondo detrás del contenido */}
+    <div className="app-container"> {}
+      <Lightning /> 
       <Header />
       
-      {/* Contenedor que tendrá el fondo y el contenido */}
       <div className="content-container">
         <Container>
           <Routes>
-            <Route path='/' element={<Home />} />
+            <Route path='' element={<Home />} />
             <Route path='/experience' element={<Experience />} />
             <Route path='/profile' element={<Profile />} />
             <Route path='/studies' element={<Studies />} />
@@ -27,7 +26,7 @@ export const App = () => {
         </Container>
       </div>
       
-      <Footer /> {/* El footer queda fuera del fondo */}
+      <Footer />
     </div>
   );
 };

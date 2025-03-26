@@ -11,10 +11,10 @@
         </div>
         <nav>
           <ul>
-            <li><NavLink to="">HOME</NavLink></li>
-            <li><NavLink to="">PROYECTS</NavLink></li>
-            <li><NavLink to="">SKILLS</NavLink></li>
-            <li><NavLink to="">ABOUT ME</NavLink></li>
+            <li><NavLink to="">INICIO</NavLink></li>
+            <li><NavLink to="">PROYECTOS</NavLink></li>
+            <li><NavLink to="">HABILIDADES</NavLink></li>
+            <li><NavLink to="">SOBRE MÍ</NavLink></li>
           </ul>
         </nav>
       </header>

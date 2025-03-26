@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .lightning-container {
@@ -10,39 +11,195 @@
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1; /* Para que esté detrás del contenido */
+  z-index: -1;
   background: radial-gradient(circle, rgba(245, 0, 0, 0.5), rgba(255, 50, 50, 0.2));
 }
 
+/* Contenedor principal */
 .container {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 7rem;
+  margin-top: 5rem;
+  width: 100%;
 }
 
+/* Contenedor de texto e imagen */
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+  margin-bottom: 3rem;
+}
+
+/* Sección de texto */
 .text-content {
+  flex: 1;
   color: white;
 }
 
-.Name {
-  margin-left: 8rem;
+.name {
   color: white;
   font-size: 5rem;
 }
 
-p {
-  margin-left: 8rem;
+.title {
+  margin-bottom: 1rem;
   color: white;
   font-size: 1.5rem;
 }
 
-.my-photo{
-  display: flex;
-  height: 20rem;
-  width: 20rem;
-  border-radius: 10px;
-  object-fit: cover; /* Ajusta la imagen sin deformarla */
-  background-color: beige;
-  
+.description {
+  width: 80%;
+  color: white;
+  font-size: 1rem;
 }
+
+/* Botón importado de Uiverse.io*/
+.botao {
+  position: relative; /* Asegura que los elementos ::before y ::after se ubiquen correctamente */
+  width: 125px;
+  height: 45px;
+  border-radius: 20px;
+  margin-top: 1rem;
+  border: none;
+  box-shadow: 1px 1px rgba(107, 221, 215, 0.37);
+  padding: 5px 10px;
+  background-color: rgb(59, 190, 230);
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-weight: 505;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px rgba(0, 195, 255, 0.568));
+  transition: 0.5s linear;
+  overflow: hidden; /* Evita barras de desplazamiento */
+}
+
+.botao .texto{
+  color: black;
+} 
+
+.botao .mysvg {
+  display: none;
+}
+
+.botao:hover {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: 0.5s linear;
+}
+
+.botao:hover .texto {
+  display: none;
+}
+
+.botao:hover .mysvg {
+  display: inline;
+}
+
+.botao:hover::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 3px;
+  background-color: rgb(59, 190, 230);
+  margin-left: -20px;
+  animation: animate 0.9s linear infinite;
+  overflow: hidden; /* Evita que el pseudo-elemento cause scroll */
+}
+
+.botao:hover::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  width: 100%;
+  height: 100%;
+  border: 3.5px solid transparent;
+  border-top: 3.5px solid #fff;
+  border-right: 3.5px solid #fff;
+  border-radius: 50%;
+  animation: animateC 2s linear infinite;
+  overflow: hidden; /* Evita que el pseudo-elemento cause scroll */
+}
+
+.line1{
+  margin-bottom: 1rem;
+}
+.line2{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Imagen */
+.image-container {
+  flex-shrink: 0;
+}
+
+.my-photo {
+  height: 28rem;
+  width: 28rem;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: beige;
+}
+
+/* Sección de Habilidades */
+.skills, .projects {
+  width: 80%;
+  text-align: center;
+  color: white;
+  margin-top: 3rem;
+}
+
+.skills h2, .projects h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.skills li {
+  font-size: 1.2rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+}
+
+/* Sección de Proyectos */
+.projects .project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.projects img {
+  width: 60%;
+  height: 15rem;
+  border-radius: 10px;
+}
+
+.projects a {
+  text-decoration: none;
+  color: #48ff00;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.projects a:hover {
+  color: white;
+}
+
