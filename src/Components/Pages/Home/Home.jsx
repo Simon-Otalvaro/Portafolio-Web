@@ -15,7 +15,7 @@ export const Home = () => {
           </div>
 
           <div>
-            <a href="/cv.pdf" download="/CV - Simón Otalvaro.pdf">
+            <a href="public\CV - Simón Otalvaro.pdf">
               <button className="button">
                 <svg
                   viewBox="0 0 16 16"

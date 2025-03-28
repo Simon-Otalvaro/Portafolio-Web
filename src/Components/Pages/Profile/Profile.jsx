@@ -20,15 +20,25 @@ export const Profile = () => {
 
       {/* Sección de Habilidades Blandas */}
       <div className="soft-skills">
-        <h2>💡 HABILIDADES BLANDAS</h2>
-        <hr className="line2" />
-        <ul>
-          <li>🤝 Trabajo en equipo</li>
-          <li>🗣️ Comunicación efectiva</li>
-          <li>🎯 Resolución de problemas</li>
-          <li>⏳ Gestión del tiempo</li>
-          <li>🌟 Adaptabilidad</li>
-        </ul>
+      <h2>💡 HABILIDADES BLANDAS</h2>
+      <hr className="line2" />
+      <ul>
+        <li>🤝 Trabajo en equipo</li>
+        <li>🗣️ Comunicación efectiva</li>
+        <li>🎯 Resolución de problemas</li>
+        <li>⏳ Gestión del tiempo</li>
+        <li>🌟 Adaptabilidad</li>
+        <li>💡 Pensamiento crítico</li>
+        <li>🔍 Atención al detalle</li>
+        <li>💬 Empatía</li>
+        <li>🎨 Creatividad</li>
+        <li>🧠 Inteligencia emocional</li>
+        <li>📢 Habilidades de liderazgo</li>
+        <li>🔄 Capacidad de aprendizaje</li>
+        <li>⚖️ Toma de decisiones</li>
+        <li>📝 Organización</li>
+        <li>🚀 Proactividad</li>
+      </ul>
       </div>
     </div>
   );
