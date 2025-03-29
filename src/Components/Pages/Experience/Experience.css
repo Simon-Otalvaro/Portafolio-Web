@@ -1,3 +1,75 @@
-.titu{
-    color: aliceblue;
+.experience-container {
+    text-align: center;
+    margin-top: 3rem;
+    color: #ffffff;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    padding: 5rem;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.languages {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+.languages li {
+    margin: 5px 5px;
+    background: #2c3e50;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    color: #ecf0f1;
+    transition: all 0.3s ease;
+}
+
+.languages li:hover {
+    background: #3498db;
+}
+
+.experience-box,
+.education-box,
+.references {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    margin: 1.5rem auto;
+    border-radius: 10px;
+    width: 90%;
+    text-align: left;
+    color: #ecf0f1;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.experience-box:hover,
+.education-box:hover,
+.references:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 12px rgba(255, 255, 255, 0.2);
+}
+
+.references {
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.references p {
+    margin: 5px 0;
+}
+
+
